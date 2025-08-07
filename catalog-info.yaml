@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: expressapplication
+  description: Not AI generated expressapplication
+  annotations:
+    github.com/project-slug: KeertiPusarlaa/expressapplication
+spec:
+  type: service
+  owner: default
+  lifecycle: production
