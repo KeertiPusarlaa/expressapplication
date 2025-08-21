@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Idp-Agent
+  description: IDP-AGENT.
+  annotations:
+    # gitpod.io/host: gitpod.io
+    github.com/project-slug: ics-tmt/idp-agent
+    jira/project-key: 'SCRUM'
+    jira/label: backstage-component:idp-agent
+
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
